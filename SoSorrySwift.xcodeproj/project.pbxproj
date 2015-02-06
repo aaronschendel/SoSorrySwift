@@ -13,6 +13,20 @@
 		C6BAE4A61A844394008E8A33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4A51A844394008E8A33 /* Images.xcassets */; };
 		C6BAE4A91A844394008E8A33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4A71A844394008E8A33 /* LaunchScreen.xib */; };
 		C6BAE4B51A844394008E8A33 /* SoSorrySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BAE4B41A844394008E8A33 /* SoSorrySwiftTests.swift */; };
+		C6BAE4C11A845BF7008E8A33 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BAE4C01A845BF7008E8A33 /* Deck.swift */; };
+		C6BAE4CF1A84668E008E8A33 /* s1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4C31A84668E008E8A33 /* s1.jpg */; };
+		C6BAE4D01A84668E008E8A33 /* s2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4C41A84668E008E8A33 /* s2.jpg */; };
+		C6BAE4D11A84668E008E8A33 /* s3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4C51A84668E008E8A33 /* s3.jpg */; };
+		C6BAE4D21A84668E008E8A33 /* s4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4C61A84668E008E8A33 /* s4.jpg */; };
+		C6BAE4D31A84668E008E8A33 /* s5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4C71A84668E008E8A33 /* s5.jpg */; };
+		C6BAE4D41A84668E008E8A33 /* s7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4C81A84668E008E8A33 /* s7.jpg */; };
+		C6BAE4D51A84668E008E8A33 /* s8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4C91A84668E008E8A33 /* s8.jpg */; };
+		C6BAE4D61A84668E008E8A33 /* s10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4CA1A84668E008E8A33 /* s10.jpg */; };
+		C6BAE4D71A84668E008E8A33 /* s11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4CB1A84668E008E8A33 /* s11.jpg */; };
+		C6BAE4D81A84668E008E8A33 /* s12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4CC1A84668E008E8A33 /* s12.jpg */; };
+		C6BAE4D91A84668E008E8A33 /* sorryCard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4CD1A84668E008E8A33 /* sorryCard.jpg */; };
+		C6BAE4DA1A84668E008E8A33 /* sSorry!.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4CE1A84668E008E8A33 /* sSorry!.jpg */; };
+		C6BAE4DD1A847E40008E8A33 /* games-logo-Sorry-0008-7775-brand.gif in Resources */ = {isa = PBXBuildFile; fileRef = C6BAE4DB1A847E40008E8A33 /* games-logo-Sorry-0008-7775-brand.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,20 @@
 		C6BAE4AE1A844394008E8A33 /* SoSorrySwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoSorrySwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BAE4B31A844394008E8A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6BAE4B41A844394008E8A33 /* SoSorrySwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoSorrySwiftTests.swift; sourceTree = "<group>"; };
+		C6BAE4C01A845BF7008E8A33 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		C6BAE4C31A84668E008E8A33 /* s1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s1.jpg; sourceTree = "<group>"; };
+		C6BAE4C41A84668E008E8A33 /* s2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s2.jpg; sourceTree = "<group>"; };
+		C6BAE4C51A84668E008E8A33 /* s3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s3.jpg; sourceTree = "<group>"; };
+		C6BAE4C61A84668E008E8A33 /* s4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s4.jpg; sourceTree = "<group>"; };
+		C6BAE4C71A84668E008E8A33 /* s5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s5.jpg; sourceTree = "<group>"; };
+		C6BAE4C81A84668E008E8A33 /* s7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s7.jpg; sourceTree = "<group>"; };
+		C6BAE4C91A84668E008E8A33 /* s8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s8.jpg; sourceTree = "<group>"; };
+		C6BAE4CA1A84668E008E8A33 /* s10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s10.jpg; sourceTree = "<group>"; };
+		C6BAE4CB1A84668E008E8A33 /* s11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s11.jpg; sourceTree = "<group>"; };
+		C6BAE4CC1A84668E008E8A33 /* s12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s12.jpg; sourceTree = "<group>"; };
+		C6BAE4CD1A84668E008E8A33 /* sorryCard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sorryCard.jpg; sourceTree = "<group>"; };
+		C6BAE4CE1A84668E008E8A33 /* sSorry!.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sSorry!.jpg"; sourceTree = "<group>"; };
+		C6BAE4DB1A847E40008E8A33 /* games-logo-Sorry-0008-7775-brand.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "games-logo-Sorry-0008-7775-brand.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +105,11 @@
 		C6BAE49B1A844394008E8A33 /* SoSorrySwift */ = {
 			isa = PBXGroup;
 			children = (
+				C6BAE4BF1A845B99008E8A33 /* Models */,
+				C6BAE4BE1A845B8F008E8A33 /* Controllers */,
 				C6BAE49E1A844394008E8A33 /* AppDelegate.swift */,
-				C6BAE4A01A844394008E8A33 /* DeckViewController.swift */,
 				C6BAE4A21A844394008E8A33 /* Main.storyboard */,
+				C6BAE4DB1A847E40008E8A33 /* games-logo-Sorry-0008-7775-brand.gif */,
 				C6BAE4A51A844394008E8A33 /* Images.xcassets */,
 				C6BAE4A71A844394008E8A33 /* LaunchScreen.xib */,
 				C6BAE49C1A844394008E8A33 /* Supporting Files */,
@@ -90,6 +120,7 @@
 		C6BAE49C1A844394008E8A33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C6BAE4C21A846620008E8A33 /* sCards */,
 				C6BAE49D1A844394008E8A33 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +141,41 @@
 				C6BAE4B31A844394008E8A33 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6BAE4BE1A845B8F008E8A33 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6BAE4A01A844394008E8A33 /* DeckViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C6BAE4BF1A845B99008E8A33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C6BAE4C01A845BF7008E8A33 /* Deck.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C6BAE4C21A846620008E8A33 /* sCards */ = {
+			isa = PBXGroup;
+			children = (
+				C6BAE4C31A84668E008E8A33 /* s1.jpg */,
+				C6BAE4C41A84668E008E8A33 /* s2.jpg */,
+				C6BAE4C51A84668E008E8A33 /* s3.jpg */,
+				C6BAE4C61A84668E008E8A33 /* s4.jpg */,
+				C6BAE4C71A84668E008E8A33 /* s5.jpg */,
+				C6BAE4C81A84668E008E8A33 /* s7.jpg */,
+				C6BAE4C91A84668E008E8A33 /* s8.jpg */,
+				C6BAE4CA1A84668E008E8A33 /* s10.jpg */,
+				C6BAE4CB1A84668E008E8A33 /* s11.jpg */,
+				C6BAE4CC1A84668E008E8A33 /* s12.jpg */,
+				C6BAE4CD1A84668E008E8A33 /* sorryCard.jpg */,
+				C6BAE4CE1A84668E008E8A33 /* sSorry!.jpg */,
+			);
+			name = sCards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +227,7 @@
 				TargetAttributes = {
 					C6BAE4981A844393008E8A33 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 3SVQDA7WYJ;
 					};
 					C6BAE4AD1A844394008E8A33 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -192,9 +259,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BAE4D51A84668E008E8A33 /* s8.jpg in Resources */,
+				C6BAE4D41A84668E008E8A33 /* s7.jpg in Resources */,
+				C6BAE4D21A84668E008E8A33 /* s4.jpg in Resources */,
+				C6BAE4D71A84668E008E8A33 /* s11.jpg in Resources */,
+				C6BAE4D01A84668E008E8A33 /* s2.jpg in Resources */,
+				C6BAE4D81A84668E008E8A33 /* s12.jpg in Resources */,
+				C6BAE4D61A84668E008E8A33 /* s10.jpg in Resources */,
+				C6BAE4D11A84668E008E8A33 /* s3.jpg in Resources */,
 				C6BAE4A41A844394008E8A33 /* Main.storyboard in Resources */,
+				C6BAE4CF1A84668E008E8A33 /* s1.jpg in Resources */,
+				C6BAE4D31A84668E008E8A33 /* s5.jpg in Resources */,
 				C6BAE4A91A844394008E8A33 /* LaunchScreen.xib in Resources */,
 				C6BAE4A61A844394008E8A33 /* Images.xcassets in Resources */,
+				C6BAE4D91A84668E008E8A33 /* sorryCard.jpg in Resources */,
+				C6BAE4DA1A84668E008E8A33 /* sSorry!.jpg in Resources */,
+				C6BAE4DD1A847E40008E8A33 /* games-logo-Sorry-0008-7775-brand.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BAE4C11A845BF7008E8A33 /* Deck.swift in Sources */,
 				C6BAE4A11A844394008E8A33 /* DeckViewController.swift in Sources */,
 				C6BAE49F1A844394008E8A33 /* AppDelegate.swift in Sources */,
 			);

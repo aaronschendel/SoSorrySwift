@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,39 +17,78 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="games-logo-Sorry-0008-7775-brand.gif" translatesAutoresizingMaskIntoConstraints="NO" id="qb7-jk-YFr">
+                                <rect key="frame" x="73" y="32" width="464" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="Yxb-Hf-vbp"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btb-bT-3FU">
-                                <rect key="frame" x="277" y="306" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <rect key="frame" x="165" y="521" width="270" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="7mO-lv-ofw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="Draw Card">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="changeLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="izh-BV-Rpv"/>
+                                    <action selector="drawCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IPj-mX-7EJ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l0N-o8-PQj">
-                                <rect key="frame" x="279" y="62" width="44" height="21"/>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qxQ-xK-c6v">
+                                <rect key="frame" x="175" y="147" width="250" height="345"/>
+                                <color key="backgroundColor" red="1" green="0.38823533059999998" blue="0.1647058874" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="44" id="MTl-hm-Ima"/>
+                                    <constraint firstAttribute="width" constant="250" id="qfO-qm-H1O"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sorryCard.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VB5-up-rkL">
+                                <rect key="frame" x="16" y="163" width="568" height="282"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2x" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8H-cb-dZZ">
+                                <rect key="frame" x="175" y="547" width="22" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="wiE-wM-j2o"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Btb-bT-3FU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PLg-Cg-uML"/>
-                            <constraint firstItem="Btb-bT-3FU" firstAttribute="trailing" secondItem="l0N-o8-PQj" secondAttribute="trailing" id="drV-rY-0za"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Btb-bT-3FU" secondAttribute="bottom" constant="264" id="qMb-f9-ZLE"/>
-                            <constraint firstItem="l0N-o8-PQj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="42" id="rOk-AH-S0p"/>
+                            <constraint firstItem="qxQ-xK-c6v" firstAttribute="top" secondItem="qb7-jk-YFr" secondAttribute="bottom" constant="38" id="0DB-ZF-hkO"/>
+                            <constraint firstItem="qb7-jk-YFr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="12" id="480-zN-vM0"/>
+                            <constraint firstItem="Btb-bT-3FU" firstAttribute="top" secondItem="qxQ-xK-c6v" secondAttribute="bottom" constant="29" id="9MJ-pm-ePo"/>
+                            <constraint firstItem="qb7-jk-YFr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="57" id="A1y-kd-Jy8"/>
+                            <constraint firstItem="VB5-up-rkL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="JaX-rv-Skl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="t8H-cb-dZZ" secondAttribute="bottom" constant="32" id="Jv8-VM-Wn7"/>
+                            <constraint firstItem="Btb-bT-3FU" firstAttribute="centerX" secondItem="VB5-up-rkL" secondAttribute="centerX" id="K2t-vZ-3Qe"/>
+                            <constraint firstItem="t8H-cb-dZZ" firstAttribute="leading" secondItem="qxQ-xK-c6v" secondAttribute="leading" id="XR6-P1-D1c"/>
+                            <constraint firstItem="Btb-bT-3FU" firstAttribute="bottom" secondItem="t8H-cb-dZZ" secondAttribute="bottom" id="Z1L-k3-ZTi"/>
+                            <constraint firstItem="VB5-up-rkL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ZkN-wx-NQ6"/>
+                            <constraint firstItem="Btb-bT-3FU" firstAttribute="top" secondItem="VB5-up-rkL" secondAttribute="bottom" constant="76" id="Zzi-tO-hoN"/>
+                            <constraint firstItem="t8H-cb-dZZ" firstAttribute="top" secondItem="qxQ-xK-c6v" secondAttribute="bottom" constant="55" id="ghk-LP-oZG"/>
+                            <constraint firstItem="qxQ-xK-c6v" firstAttribute="centerX" secondItem="VB5-up-rkL" secondAttribute="centerX" id="vgv-iF-MKI"/>
+                            <constraint firstItem="VB5-up-rkL" firstAttribute="top" secondItem="qb7-jk-YFr" secondAttribute="bottom" constant="54" id="vz1-vO-6yb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qb7-jk-YFr" secondAttribute="trailing" constant="47" id="xzM-Sp-UTv"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="labelToChange" destination="l0N-o8-PQj" id="3pc-Xj-d2K"/>
+                        <outlet property="cardDisplay" destination="qxQ-xK-c6v" id="gdq-vl-SYa"/>
+                        <outlet property="deckDisplay" destination="VB5-up-rkL" id="XMA-gl-K61"/>
+                        <outlet property="doubleLabel" destination="t8H-cb-dZZ" id="maG-Fe-Iim"/>
+                        <outlet property="drawCardButtonLabel" destination="Btb-bT-3FU" id="u21-BP-nEW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="292" y="454"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="games-logo-Sorry-0008-7775-brand.gif" width="179" height="49"/>
+        <image name="sorryCard.jpg" width="3264" height="2448"/>
+    </resources>
 </document>
