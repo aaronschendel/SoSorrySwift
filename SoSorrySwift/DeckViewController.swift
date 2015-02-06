@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var labelToChange: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +22,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func changeLabel(sender: UIButton) {
+        labelToChange.text = "kitty"
+        
+    }
 }
 
