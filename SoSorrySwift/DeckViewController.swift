@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func changeLabel(sender: UIButton) {
-        labelToChange.text = "kitty"
+        labelToChange.text = "cat"
         
     }
 }
